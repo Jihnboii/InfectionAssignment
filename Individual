@@ -2,7 +2,7 @@ public class Individual {
     private char status;
     private double infectProb;
     private double recoveryProb;
-
+   
     //Default Constructor
     public Individual() {
         status = 'S';
