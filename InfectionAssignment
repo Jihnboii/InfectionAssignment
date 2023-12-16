@@ -256,7 +256,7 @@ public class InfectionAssignment {
       individuals = isPerfectSquare(scnr.nextInt());
       //gets input from user for num of time steps
       System.out.println("Enter the number of time steps:");
-      timeSteps = isValidNum(scnr.nextInt());
+      timeSteps = isValidNum(scnr.nextInt());;
       
       System.out.println("Enter the infection rate (must be between 0 and 0.25 inclusive): ");
       infectionRate = isWithinBounds(scnr.nextDouble(), 0.00, 0.25);
